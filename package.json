@@ -1,0 +1,30 @@
+{
+    "name": "gulp-setup",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "dependencies": {
+        "gulp-rename": "^1.4.0"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.3",
+        "gulp": "^3.9.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-sass": "^4.0.2",
+        "gulp-uglify": "^3.0.2",
+        "node-sass": "^4.11.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/StraleMedic/Gulp-setup.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/StraleMedic/Gulp-setup/issues"
+    },
+    "homepage": "https://github.com/StraleMedic/Gulp-setup#readme"
+}
