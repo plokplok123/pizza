@@ -1,0 +1,9 @@
+.container {
+    color: #00FF00; }
+    .container_producten {
+      width: 50%; }
+      .container_producten:hover {
+        color: #800080; }
+    .container:visited {
+      padding: 10px;
+      color: #00FF00; }

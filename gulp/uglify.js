@@ -1,9 +1,10 @@
-// var uglify = require('gulp-uglify');
-// var concat = require('gulp-concat');
+const { task, src, dest } = require('gulp');
+const rename = require('gulp-rename');
+const uglify = require('gulp-uglify');
 
-// gulp.task('uglify', function () {
-//     gulp.src('js/main.js')
-//         .pipe(uglify())
-//         .pipe(concat('main.min.js'))
-//         .pipe(gulp.dest('js'));
-// });
+module.exports = task('uglify', function() {
+    return src('./js/main.js')
+    .pipe(uglify())
+    .pipe(rename({ extname: '.min.js'}))
+    .pipe(dest('js/'));
+  });

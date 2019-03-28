@@ -1,4 +1,6 @@
-function myFunction() {
-    var x = document.getElementById("demo")
-    x.innerHTML = Math.floor((Math.random() * 100) + 1);
-  }
+var x = myFunction(4, 3);
+document.getElementById("demo").innerHTML = x;
+
+function myFunction(a, b) {
+  return a * b;
+}
