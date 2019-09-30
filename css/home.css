@@ -1,3 +1,46 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.banner {
+  width: 100%;
+  height: 13em; }
+
+.nav-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
+
+.nav-container__link {
+  float: left; }
+
+.page-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.page-link:hover {
+  background-color: #111; }
+
+.mario-pizza {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%; }
+
+.mario-pizza:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.container {
+  padding: 2px 16px; }
+
 .dropdown {
   position: relative;
   display: inline-block; }
