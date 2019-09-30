@@ -17,6 +17,7 @@
         "node-sass": "^4.11.0"
     },
     "dependencies": {
-        "clean-css": "^4.2.1"
+        "clean-css": "^4.2.1",
+        "normalize": "^0.3.1"
     }
 }
